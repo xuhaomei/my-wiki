@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Test - My Docs</title>
+  <title>json-server - My Docs</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,8 +17,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Test";
-    var mkdocs_page_input_path = "test.md";
+    var mkdocs_page_name = "json-server";
+    var mkdocs_page_input_path = "json-server.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -58,21 +58,9 @@
     <a class="" href="../first/">Fisrt</a>
 	    </li>
           
-            <li class="toctree-l1 current">
+            <li class="toctree-l1">
 		
-    <a class="current" href="./">Test</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l2"><a href="#_1">一级标题</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l3" href="#_2">二级标题</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../test/">Test</a>
 	    </li>
           
         </ul>
@@ -97,7 +85,7 @@
     
       
     
-    <li>Test</li>
+    <li>json-server</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -107,22 +95,15 @@
           <div role="main">
             <div class="section">
               
-                <p>This is a new page.</p>
-<h1 id="_1">一级标题</h1>
-<h2 id="_2">二级标题</h2>
-<h3 id="_3">三级标题</h3>
-<p>！<a href="../images/cat.png">mkdocs</a></p>
+                <h1 id="json-server">json-server</h1>
+<p>一个mock工具。</p>
+<p>mock server工具，模拟服务端接口数据，一般用在前后端分离后，前端人员可以不依赖API开发，而<strong>在本地搭建一个JSON服务</strong>，自己产生测试数据。（json——一种轻量级的数据交换格式。）</p>
+<p>（感觉上）在.json文件中可以加入自己模拟的后台数据，然后可以在前端使用。</p>
+<p>加入数据的方法可以是直接在代码中写入，也可以通过其他语言的接口写入（如：js中fetch到页面提交的数据后用stringify()将其转换为json格式，然后存入.json文件中）</p>
               
             </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-      
-        <a href="../first/" class="btn btn-neutral" title="Fisrt"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
@@ -145,8 +126,6 @@
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-      
-        <span><a href="../first/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
     </span>
