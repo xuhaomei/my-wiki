@@ -1,0 +1,7 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+  - Fisrt: first.md
+  - Test: test.md
+theme:
+  name: 'readthedocs'
