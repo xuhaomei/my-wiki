@@ -1,7 +1,8 @@
 site_name: My Docs
 nav:
   - Home: index.md
-  - Fisrt: first.md
-  - Test: test.md
+  - Html: html.md
+  - Css: css.md
+  - Json-server: json-server.md
 theme:
   name: 'readthedocs'
